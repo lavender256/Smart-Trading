@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../../../providers/market_provider.dart';
-import '../../../../../utils/constants.dart';
+import '../../models/footprint_data.dart';
+import '../../providers/market_provider.dart';
+import '../../utils/constants.dart';
 import 'chart_engine.dart';
 
 class ChartContainer extends ConsumerStatefulWidget {

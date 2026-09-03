@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../../../providers/market_provider.dart';
-import '../../../../utils/constants.dart';
-
+import '../providers/market_provider.dart';
+import '../utils/constants.dart';
 
 class WatchlistItem {
   final String symbol;

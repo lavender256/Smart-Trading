@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../../../providers/market_provider.dart';
-import '../../../../utils/constants.dart';
-import '../../../../utils/format_utils.dart';
-
+import '../providers/market_provider.dart';
+import '../utils/constants.dart';
+import '../utils/format_utils.dart';
 
 class StatsBar extends ConsumerWidget {
   const StatsBar({super.key});

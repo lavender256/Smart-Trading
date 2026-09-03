@@ -1,12 +1,11 @@
 import 'dart:async';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../feature/trading/domain/models/candle_data.dart';
-import '../feature/trading/domain/models/depth_data.dart';
-import '../feature/trading/domain/models/footprint_data.dart';
-import '../feature/trading/domain/models/liquidity_data.dart';
-import '../feature/trading/domain/models/trade_data.dart';
-import '../feature/trading/domain/models/volume_profile_data.dart';
+import '../models/candle_data.dart';
+import '../models/depth_data.dart';
+import '../models/volume_profile_data.dart';
+import '../models/footprint_data.dart';
+import '../models/liquidity_data.dart';
+import '../models/trade_data.dart';
 import '../services/binance_service.dart';
 import '../utils/constants.dart';
 

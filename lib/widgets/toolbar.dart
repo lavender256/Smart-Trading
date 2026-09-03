@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../../../providers/market_provider.dart';
-import '../../../../utils/constants.dart';
-import '../../../../utils/responsive.dart';
-import '../../domain/models/footprint_data.dart';
-
+import '../models/footprint_data.dart';
+import '../providers/market_provider.dart';
+import '../utils/constants.dart';
+import '../utils/responsive.dart';
 
 class Toolbar extends ConsumerWidget {
   const Toolbar({super.key});

@@ -1,15 +1,14 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import '../../../../../utils/constants.dart';
-import '../../../../../utils/format_utils.dart';
-import '../../../domain/models/candle_data.dart';
-import '../../../domain/models/footprint_data.dart';
-import '../../../domain/models/liquidity_data.dart';
-import '../../../domain/models/trade_data.dart';
-import '../../../domain/models/volume_profile_data.dart';
-
+import '../../models/candle_data.dart';
+import '../../models/depth_data.dart';
+import '../../models/volume_profile_data.dart';
+import '../../models/footprint_data.dart';
+import '../../models/liquidity_data.dart';
+import '../../models/trade_data.dart';
+import '../../utils/constants.dart';
+import '../../utils/format_utils.dart';
 
 class ChartEngine extends CustomPainter {
   final List<CandleData> candles;

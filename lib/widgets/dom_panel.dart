@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../../../providers/market_provider.dart';
-import '../../../../utils/constants.dart';
-import '../../../../utils/format_utils.dart';
-import '../../domain/models/depth_data.dart';
-
+import '../models/depth_data.dart';
+import '../providers/market_provider.dart';
+import '../utils/constants.dart';
+import '../utils/format_utils.dart';
 
 class DOMPanel extends ConsumerWidget {
   const DOMPanel({super.key});
